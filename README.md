@@ -1,5 +1,5 @@
 # Automated Differentiation of Atypical Parkinsonian Syndromes Using Brain Iron Patterns in Susceptibility Weighted Imaging
-An implementation of 3D brain MRI extracted radiomic feature selection and disease classification
+An implementation of 3D brain MRI segmentation, radiomic feature extraction and selection, and disease classification
 
 ## Requirements
 + Package Required: numpy, scipy, sklearn, skfeature, pandas, nibabel, ants, SimpleITK, radiomics
@@ -11,7 +11,7 @@ An implementation of 3D brain MRI extracted radiomic feature selection and disea
 
 python make_hc.py T1w.nii.gz SWI.nii.gz initial_mask.nii.gz save_HC.nii.gz
 
-+ Extracting radiomic feature
++ Extracting radiomic feature (Multiple parameter files can be used to change neighbor voxel distance)
 
 python extract_radiomic_3d.py volume.nii.gz left_putamen_mask.nii.gz right_putamen_mask.nii.gz parameter1.yaml parameter2.yaml parameter3.yaml feature_table.csv
 
