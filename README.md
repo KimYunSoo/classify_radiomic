@@ -2,7 +2,7 @@
 An implementation of 3D brain MRI extracted radiomic feature selection and disease classification
 
 ## Requirements
-+ Package Required: scipy, sklearn, skfeature, pandas, numpy 
++ Package Required: numpy, scipy, sklearn, skfeature, pandas, nibabel, ants, SimpleITK
 
 ## Running
 + git clone https://github.com/KimYunSoo/classify_radiomic.git
