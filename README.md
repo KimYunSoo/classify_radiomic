@@ -17,7 +17,7 @@ python radiomic_clf.py MSAP_hc.csv MSAP_fs.csv MSAC_hc.csv MSAC_fs.csv PD_hc.csv
 ![image](https://user-images.githubusercontent.com/45022470/153359259-28cff295-c955-42f8-88c5-79ea179fe21d.png)
 
 
-+ Putamen mask of segmentation result of using only T1w image (FreeSurfer) and using T1w and SWI (HC) with SWI overlayed.
++ Putamen mask of segmentation result of using only T1w image (FreeSurfer) and using T1w and SWI (proposed method) with SWI overlayed.
 
 ![image](https://user-images.githubusercontent.com/45022470/153359381-cea01a75-07ec-4715-9f5b-4d404cef3882.png)
 
