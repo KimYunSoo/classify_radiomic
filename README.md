@@ -2,12 +2,20 @@
 An implementation of 3D brain MRI extracted radiomic feature selection and disease classification
 
 ## Requirements
-+ Package Required: numpy, scipy, sklearn, skfeature, pandas, nibabel, ants, SimpleITK
++ Package Required: numpy, scipy, sklearn, skfeature, pandas, nibabel, ants, SimpleITK, radiomics
 
 ## Running
 + git clone https://github.com/KimYunSoo/classify_radiomic.git
 
-+ (If you classify MSA-P, MSA-C, PD, and PSP)
++ Making Hybrid Contrast Image by combining T1w and SWI
+
+python make_hc.py T1w.nii.gz SWI.nii.gz initial_mask.nii.gz save_HC.nii.gz
+
++ Extracting radiomic feature
+
+python extract_radiomic_3d.py volume.nii.gz left_putamen_mask.nii.gz right_putamen_mask.nii.gz parameter1.yaml parameter2.yaml parameter3.yaml feature_table.csv
+
++ machine learning classification using radiomic feature (If you classify MSA-P, MSA-C, PD, and PSP)
 
 python radiomic_clf.py MSAP_hc.csv MSAP_fs.csv MSAC_hc.csv MSAC_fs.csv PD_hc.csv PD_fs.csv PSP_hc.csv PSP_fs.csv your_save_path train_iter_num test_iter_num
 
