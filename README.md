@@ -1,6 +1,8 @@
 # Automated Differentiation of Atypical Parkinsonian Syndromes Using Brain Iron Patterns in Susceptibility Weighted Imaging
 An implementation of 3D brain MRI segmentation, radiomic feature extraction and selection, and disease classification
 
+Paper Link : https://doi.org/10.3390/diagnostics12030637
+
 ## Requirements
 + Package Required: numpy, scipy, sklearn, skfeature, pandas, nibabel, ants, SimpleITK, radiomics
 
