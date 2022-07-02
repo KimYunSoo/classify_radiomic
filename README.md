@@ -6,7 +6,7 @@ Kim Yun Soo, Jae-Hyeok Lee, and Jin Kyu Gahm. "Automated Differentiation of Atyp
 
 Paper Link : https://doi.org/10.3390/diagnostics12030637
 
-Abstract
++ Abstract
 
 In recent studies, iron overload has been reported in atypical parkinsonian syndromes. The topographic patterns of iron distribution in deep brain nuclei vary by each subtype of parkinsonian syndrome, which is affected by underlying disease pathologies. In this study, we developed a novel framework that automatically analyzes the disease-specific patterns of iron accumulation using susceptibility weighted imaging (SWI). We constructed various machine learning models that can classify diseases using radiomic features extracted from SWI, representing distinctive iron distribution patterns for each disorder. Since radiomic features are sensitive to the region of interest, we used a combination of T1-weighted MRI and SWI to improve the segmentation of deep brain nuclei. Radiomics was applied to SWI from 34 patients with a parkinsonian variant of multiple system atrophy, 21 patients with cerebellar variant multiple system atrophy, 17 patients with progressive supranuclear palsy, and 56 patients with Parkinson’s disease. The machine learning classifiers that learn the radiomic features extracted from iron-reflected segmentation results produced an average area under receiver operating characteristic curve (AUC) of 0.8607 on the training data and 0.8489 on the testing data, which is superior to the conventional classifier with segmentation using only T1-weighted images. Our radiomic model based on the hybrid images is a promising tool for automatically differentiating atypical parkinsonian syndromes.
 
